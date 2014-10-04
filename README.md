@@ -1,6 +1,6 @@
 # is-keyword-js
 
-[![Build Status](https://travis-ci.org/CrissDev/is-keyword-js.png?branch=master)](https://travis-ci.org/CrissDev/is-keyword-js)
+[![Build Status](https://travis-ci.org/crissdev/is-keyword-js.png?branch=master)](https://travis-ci.org/crissdev/is-keyword-js)
 
 > Check if a given string is a Javascript keyword or reserved for future keywords.
 

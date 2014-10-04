@@ -1,6 +1,6 @@
 {
   "name": "is-keyword-js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple way to check if a string is a keyword or reserved keyword in JavaScript",
   "main": "index.js",
   "scripts": {
@@ -9,10 +9,10 @@
   "files": [
     "index.js"
   ],
-  "homepage": "https://github.com/CrissDev/is-keyword-js",
+  "homepage": "https://github.com/crissdev/is-keyword-js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/CrissDev/is-keyword-js"
+    "url": "https://github.com/crissdev/is-keyword-js"
   },
   "keywords": [
     "javascript",
@@ -22,10 +22,10 @@
   "engines": {
     "node": ">=0.10.0"
   },
-  "author": "crissdev <t4013-github@yahoo.com> (http://crissdev.com/)",
+  "author": "crissdev <criss.trifan@gmail.com> (http://crissdev.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/CrissDev/is-keyword-js/issues"
+    "url": "https://github.com/crissdev/is-keyword-js/issues"
   },
   "devDependencies": {
     "ava": "0.0.4"
