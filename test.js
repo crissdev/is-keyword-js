@@ -4,6 +4,16 @@ var test = require('ava'),
     isKeyword = require('./');
 
 
+test('hasOwnProperty should not be considered keyword', function(t) {
+    t.plan(1);
+    t.assert(isKeyword("hasOwnProperty") === false);
+});
+
+test('toString should not be considered keyword', function(t) {
+    t.plan(1);
+    t.assert(isKeyword("toString") === false);
+});
+
 test('undefined should not be considered keyword', function(t) {
     t.plan(1);
     t.assert(isKeyword(undefined) === false);
