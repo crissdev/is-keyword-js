@@ -66,5 +66,5 @@ var reservedKeywords = {
 };
 
 module.exports = function(str) {
-    return !!reservedKeywords[str];
+    return reservedKeywords.hasOwnProperty(str);
 };
